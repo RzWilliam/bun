@@ -1,15 +1,30 @@
-# Elysia with Bun runtime
+# Architecture backend - Bun
 
-## Getting Started
-To get started with this template, simply paste this command into your terminal:
-```bash
-bun create elysia ./elysia-example
-```
+## Installation
 
-## Development
-To start the development server run:
-```bash
-bun run dev
-```
+Assurez-vous d'avoir [Bun](https://bun.sh) installé.
 
-Open http://localhost:3000/ with your browser to see the result.
+1. Clonez le dépôt :
+   ```bash
+   git clone https://github.com/RzWilliam/bun
+   ```
+2. Accédez au répertoire du projet : 
+    ```bash
+    cd bun
+    ```
+3. Installez les dépendances :
+    ```bash
+    npm install
+    ```
+
+## Utilisation
+
+1. Lancez l'application avec la commande :
+    ```bash
+    npm run dev
+    ```
+
+2. Ouvrez un navigateur web et accédez à l'URL suivante : 
+    ```bash
+    http://localhost:3000
+    ```
